@@ -1,0 +1,63 @@
+/*  Imports CSS files */
+@import url("/styles/responsive.css");
+@import url("/styles/fonts.css");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-optical-sizing: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* Variables */
+:root {
+  /* Colors */
+  --primary-color: #e05d36;
+  --secondary-color: #553b85;
+  --card-border-color: #eaeaea;
+  --title-main-color: #1d1f21;
+  --title-secondary-color: #666666;
+  --content-text-color: #747474;
+  --shadow-sm: 0px 1px 4px 0px rgba(0, 0, 0, 1);
+  /* Typography */
+  --font-lato: "Lato", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --lato-thin: 100;
+  --lato-light: 300;
+  --lato-regular: 400;
+  --lato-bold: 700;
+  --lato-black: 900;
+  --font-normal: normal;
+  --font-italic: italic;
+}
+
+/* Reusable component */
+.primary-button {
+  padding-inline: 22px;
+  border-radius: 10px;
+  font-family: var(--font-lato);
+  font-weight: var(--lato-bold);
+  color: #ffff;
+  height: 54px;
+  text-align: center;
+  border: 0;
+  background-color: var(--primary-color);
+}
+
+/* home page styles */
+
+header {
+box-shadow: 0px 1px 4px 0px rgb(173, 173, 173);
+}
